@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      ul {
+        list-style-type: none;
+      }
+      li {
+        margin-top: 10px;
+      }
+      body {
+        background-color: #54a0ff;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .row {
+        display: flex;
+      }
+
+      /* Create two equal columns that sits next to each other */
+      .column1 {
+        flex: 25%;
+        padding: 10px;
+        height: 100%; /* Should be removed. Only for demonstration */
+        background-color: #16a085;
+      }
+      .column2 {
+        flex: 75%;
+        padding: 10px;
+        height: 100%; /* Should be removed. Only for demonstration */
+        background-color: #2ecc71;
+      }
+      .main_header {
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <center><h1 class="main_header">My Learning and Passion Hub</h1></center>
+    <div class="row">
+      <div class="column1">
+        <h2>My All Things</h2>
+        <ol>
+          <li>
+            <a target="_blank" href="python_programs.htm">Python</a>
+          </li>
+          <li>
+            <a target="_blank" href="my_important_links.htm">Links</a>
+          </li>
+          <li>
+            <a target="_blank" href="my_subscriptions.htm">Subscriptions</a>
+          </li>
+          <li>
+            <a target="_blank" href="my_presentations.htm">Presentations</a>
+          </li>
+        </ol>
+      </div>
+      <div class="column2">
+        <h2>Description</h2>
+        <ul>
+          <li>
+            This will open my python lab page which has links to all python
+            programs that I learn.
+          </li>
+          <li>This page has important links to the work I do.</li>
+          <li>
+            This page has the links to all my online subscriptions.
+          </li>
+          <li>This has links to all my presentations on web.</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
