@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      ul {
+        list-style-type: none;
+      }
+      li {
+        margin-top: 10px;
+      }
+      body {
+        background-color: #54a0ff;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .row {
+        display: flex;
+      }
+
+      /* Create two equal columns that sits next to each other */
+      .column1 {
+        flex: 25%;
+        padding: 10px;
+        height: 100%; /* Should be removed. Only for demonstration */
+        background-color: #16a085;
+      }
+      .column2 {
+        flex: 75%;
+        padding: 10px;
+        height: 100%; /* Should be removed. Only for demonstration */
+        background-color: #2ecc71;
+      }
+      .main_header {
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <center>
+      <h1 class="main_header">My presentations on the internet</h1>
+    </center>
+    <div class="row">
+      <div class="column1">
+        <h2>Topic</h2>
+        <ol>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=Hwss_VopUoE&feature=youtu.be"
+              >Trick for multiplying with 11</a
+            >
+          </li>
+          <li>
+              <a
+                target="_blank"
+                href="C:\Users\sudheer\Desktop\Ritvik HTML Work\ritvikwebsite.htm"
+                >My Avengers Work</a
+              >
+            </li>
+        </ol>
+      </div>
+      <div class="column2">
+        <h2>Description</h2>
+        <ul>
+          <li>This video will show how to multiply with 11 in easy steps.</li>
+          <li>This opens my avengers html page.</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
