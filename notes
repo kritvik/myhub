@@ -5,10 +5,6 @@ facing and turning sides questions(right/left, clockwise/anti clockwise
 Incorret time/First correct the time and then add/subtract 
 positions of the digits after the digits are rearranged.
 
-
-
-
-
 mirror & water images
 https://www.youtube.com/watch?v=txD2A-djwEs
 
@@ -23,4 +19,16 @@ Olympiad Success
 How can we print the mock papers?
 
 makemyfirststep
+
+
+python program 
+
+1. print a single math table.
+2. print math tables up to a given number.
+3. find an element in the list.
+4. find the greatest element in the list.
+5. find the substring in the list.
+6. find the number of words,vowels, consonants etc
+
+
 
